@@ -13,10 +13,19 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Source Files\TCP">
+      <UniqueIdentifier>{2695c936-4562-4d2d-a73e-5b8cca976e42}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\TCPServer">
+      <UniqueIdentifier>{73946670-8714-4dbc-bf5b-74a13f8dbebf}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="WebServerDemo.cpp">
       <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TCP\TCPConnection.cpp">
+      <Filter>Source Files\TCP</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
